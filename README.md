@@ -17,31 +17,6 @@ Features
 - Orchestrated with Kubernetes for production-like deployments.
 - Quick local setup using Docker Compose for development.
 
-Project Structure
-The project contains separate directories for the frontend and backend along with Docker and Kubernetes configuration files:
-
-task-manager-app/
-│
-├── backend/
-│ ├── Dockerfile
-│ ├── package.json
-│ ├── server.js
-│ └── ...
-│
-├── frontend/
-│ ├── Dockerfile
-│ ├── package.json
-│ ├── src/
-│ └── ...
-│
-├── k8s/
-│ ├── frontend-deployment.yml
-│ ├── backend-deployment.yml
-│ └── ...
-│
-├── docker-compose.yml
-└── README.md
-
 Getting Started
 Prerequisites
 
@@ -134,10 +109,3 @@ Technologies Used
 - **Containerization**: Docker
 - **Orchestration**: Kubernetes
 - **Local Development**: Docker Compose
-
-Future Enhancements
-
-- Implement a database (e.g., MongoDB, PostgreSQL) for persistent task storage.
-- Add user authentication for task management.
-- Set up CI/CD with GitHub Actions for automated testing, building, and deployment.
-- Deploy the application to a cloud-based Kubernetes cluster (e.g., AKS - Azure Kubernetes Service).
